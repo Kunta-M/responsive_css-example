@@ -1,0 +1,576 @@
+/*
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1280px;
+}
+
+.header_navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h_logo {
+  width: 30px;
+  height: 30px;
+  margin: 15px 62px;
+}
+
+nav ul {
+  margin-right: 150px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #363636;
+  font-size: 14px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #0078aa;
+}
+
+.header_heading {
+  position: relative;
+  background-image: url("../img/lady.jpg");
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: cover;
+  height: 600px;
+  border-bottom-right-radius: 25%;
+}
+
+.header_heading h1,
+.header_heading p {
+  position: absolute;
+  margin: 0 60px;
+}
+
+.header_heading h1 {
+  top: 30%;
+  width: 500px;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.header_heading p {
+  top: 45%;
+  font-size: 16px;
+  color: #3B3F5077;
+  padding: 30px 15px;
+}
+
+header button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #0078aa;
+  border-radius: 50%;
+  border: none;
+  position: fixed;
+  left: 95%;
+}
+
+header button:hover {
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #0078aa;
+  border: 2px solid #0078aa;
+}
+
+.section_about {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.section_about img {
+  width: 600px;
+  height: 100%;
+  margin-top: 20px;
+  padding: 20px 15px;
+}
+
+.section_about_title,
+.section_services_title,
+.section_offers_title,
+.section_contact_title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.section_about_text {
+  color: #0078aa;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.section_about div {
+  padding-top: 20px;
+}
+
+.section_about h6 {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.section_about h6 span {
+  color: #0078aa;
+}
+
+.section_about p {
+  width: 400px;
+  font-size: 12px;
+  padding: 5px 0 10px;
+  white-space: pre-line;
+}
+
+.section_services {
+  background-image: url("../img/services_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: cover;
+  height: 600px;
+  margin-top: 10px;
+}
+
+.section_services_title,
+.section_services_text,
+.section_offers_title,
+.section_offers_text {
+  text-align: center;
+}
+
+.section_services_title,
+.section_offers_title {
+  padding: 50px 0 10px;
+}
+
+.section_services_text,
+.section_offers_text,
+.section_contact_text {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.section_services_tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.section_services_tables div {
+  width: 25%;
+  background-color: #FFF;
+  padding: 15px 20px;
+  margin: 10px;
+}
+
+.section_services_tables img {
+  width: 100px;
+  height: 80px;
+}
+
+.section_services_tables h5,
+.section_services_tables p {
+  font-size: 12px;
+}
+
+.section_services_tables p {
+  width: 320px;
+  padding-top: 5px;
+}
+
+.section_offers_details {
+  background-image: url("../img/pricing_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: cover;
+  height: 600px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.section_offers_details h4 {
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.section_offers_details p {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.section_offers_details li {
+  list-style: none;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.section_offers_details button {
+  border: 1px solid #0078aa;
+  border-radius: 8px;
+  color: #0078aa;
+  font-weight: bold;
+  margin-top: 8px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.section_offers_details div {
+  width: 25%;
+  height: 70%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #48D1CC;
+}
+
+.section_offers_details div:nth-child(1),
+.section_offers_details div:nth-child(3) {
+  margin: 100px 0;
+}
+
+.section_offers_details div:nth-child(2) {
+  height: 80%;
+  background-color: #FFFFFF;
+  color: #48D1CC;
+  border: 1px solid #48D1CC;
+  padding-top: 20px;
+  margin: 80px 0;
+}
+
+.footer_top {
+  display: flex;
+  justify-content: center;
+  margin: 30px 15px 0;
+}
+
+.footer_top div {
+  margin-left: 20px;
+}
+
+.footer_top img {
+  width: 40%;
+  height: 500px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+input {
+  padding: 15px 0 10px;
+  border: none;
+  border-bottom: 1px solid #A9A9A9;
+  width: 600px;
+}
+
+input[type='email'] {
+  border: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+  font-style: italic;
+}
+
+input[type='date'] {
+  font-weight: bold;
+}
+
+form button {
+  background-color: #48D1CC;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 12px;
+  width: 70px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+form button:hover {
+  background-color: #FFFFFF;
+  color: #48D1CC;
+  border: 1px solid #48D1CC;
+  cursor: pointer;
+}
+
+.footer_below {
+  background-color: #363636;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  height: 60px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav li {
+    padding: 20px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  .header_heading {
+    background-size: 140%;
+    height: 500px;
+  }
+
+  .header_heading p {
+    font-size: 20px;
+    padding: 35px 20px;
+  }
+
+  .section_about img {
+    width: 50%;
+    padding: 5px 5px;
+  }
+
+  .section_about_title,
+  .section_services_title,
+  .section_offers_title,
+  .section_contact_title {
+    font-size: 30px;
+  }
+
+  .section_about h6 {
+    font-size: 13px;
+  }
+
+  .section_about p {
+    font-size: 14px;
+    padding: 5px 0 5px;
+  }
+
+  .section_services_tables div {
+    width: 30%;
+    padding: 30px 50px;
+    margin: 5px;
+  }
+
+  .section_services_tables {
+    padding-top: 5px;
+  }
+
+  .section_offers_details {
+    background-size: 150%;
+  }
+
+  .section_offers_details div {
+    width: 30%;
+    height: 80%;
+  }
+
+  .section_offers_details div:nth-child(2) {
+    height: 90%;
+    margin: 30px 0;
+  }
+
+  .section_offers_details div:nth-child(1),
+  .section_offers_details div:nth-child(3) {
+    margin: 50px 0;
+  }
+
+  .section_offers_details li {
+    font-size: 14px;
+  }
+
+  .footer_top img {
+    width: 550px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header_navbar {
+    flex-flow: column;
+  }
+
+  .h_logo {
+    margin: 15px 200px;
+  }
+
+  nav li {
+    padding: 10px 20px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  .header_heading {
+    width: 760px;
+    height: 500px;
+  }
+
+  .header_heading h1,
+  .header_heading p {
+    position: absolute;
+    margin: 0 30px;
+  }
+
+  .header_heading h1 {
+    top: 10%;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 50px;
+  }
+
+  .header_heading p {
+    width: 500px;
+    top: 55%;
+    font-size: 20px;
+    padding: 55px 40px;
+    white-space: pre;
+  }
+
+  header button {
+    left: 35%;
+  }
+
+  .section_about {
+    flex-flow: column;
+    margin-top: 10px;
+  }
+
+  .section_about img {
+    width: 480px;
+  }
+
+  .section_about_title,
+  .section_services_title,
+  .section_offers_title,
+  .section_contact_title {
+    margin: 5px 100px;
+  }
+
+  .section_about h6 {
+    margin: 0 110px;
+  }
+
+  .section_about_text {
+    margin: 0 120px;
+  }
+
+  .section_about p {
+    margin: 0 30px;
+  }
+
+  .section_services_title,
+  .section_services_text,
+  .section_offers_title,
+  .section_offers_text {
+    text-align: initial;
+  }
+
+  .section_services_text,
+  .section_offers_text,
+  .section_contact_text {
+    padding: 0 110px;
+  }
+
+  .section_services_tables {
+    flex-flow: column;
+    padding-top: 20px;
+  }
+
+  .section_services_tables div {
+    width: 30%;
+    background-color: #FFF;
+    padding: 30px 50px;
+    margin: 10px 50px;
+  }
+
+  .section_services {
+    height: 1520px;
+  }
+
+  .section_offers_details {
+    background-image: none;
+    flex-flow: column;
+    height: 1600px;
+  }
+
+  .section_offers_details p {
+    padding: 5px;
+  }
+
+  .section_offers_details div:nth-child(1),
+  .section_offers_details div:nth-child(3) {
+    margin: 5px 70px;
+  }
+
+  .section_offers_details div:nth-child(2) {
+    height: 450px;
+    padding-top: 10px;
+    margin: 5px 70px;
+  }
+
+  .section_offers_details button {
+    margin-top: 30px;
+  }
+
+  .section_offers_details div {
+    height: 450px;
+  }
+
+  .footer_top {
+    flex-flow: column;
+    margin: 10px 20px 5px;
+  }
+
+  .footer_top img {
+    width: 40%;
+    height: 400px;
+  }
+
+  input {
+    width: 430px;
+  }
+
+  .footer_below {
+    text-align: initial;
+    height: 60px;
+    padding: 20px 150px;
+    margin-top: 10px;
+  }
+}
